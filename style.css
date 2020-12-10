@@ -130,9 +130,6 @@ a:hover {
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
@@ -147,9 +144,6 @@ a:hover {
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
@@ -222,19 +216,11 @@ a:hover {
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
-.l-bloc a .icon-md,
-.l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
-.l-bloc h1 a,
-.l-bloc h2 a,
-.l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
 }
-
+/*
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
@@ -246,13 +232,10 @@ a:hover {
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
 }
-
+*/
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
@@ -294,12 +277,9 @@ a:hover {
 }
 
 .navbar-brand {
-    height: auto;
+
     padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
-    font-weight: 600;
-    line-height: 44px;
+
 }
 
 .navbar-brand img {
@@ -351,7 +331,7 @@ a:hover {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
 }
-
+/*
 .nav-invert .navbar .nav {
     float: left;
 }
@@ -362,7 +342,7 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
+*/
 
 
 .nav > li > .dropdown a {
@@ -609,9 +589,6 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p,
 label,
 .btn,
@@ -627,6 +604,11 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+}
+
+.header-logo {
+    font-size: 1.8rem;
+
 }
 
 .hero-bloc-text-sub {
@@ -687,11 +669,7 @@ h3 {
 h1 {
     color: #333333!important;
 }
-/*
-h4 {
-    color: #333333!important;
-}
-*/
+
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -863,9 +841,6 @@ h4 {
     h1,
     h2,
     h3,
-    h4,
-    h5,
-    h6,
     p,
     #disqus_thread {
         padding-left: 10px!important;
