@@ -134,7 +134,7 @@ h4 {
 
 .h5,
 h5 {
-    font-size: 20px
+    font-size: 30px
 }
 
 
@@ -170,11 +170,12 @@ ul {
     margin-right: auto;
     margin-left: auto
 }
-
+/*
 .row {
     margin-right: -15px;
     margin-left: -15px
 }
+*/
 
 .col-lg-1,
 .col-lg-10,
@@ -245,21 +246,9 @@ ul {
     float: left
 }
 
-.col-xs-12 {
-    width: 100%
-}
-
 .col-xs-2 {
     width: 16.66666667%
 }
-
-
-.col-sm-6 {
-    width: 75%;
-    margin: auto;
-}
-
-
 
 .btn {
     display: inline-block;
@@ -333,55 +322,55 @@ ul {
     margin-top: 4px
 }
 
-.btn-group-vertical>.btn-group:after,
-.btn-group-vertical>.btn-group:before,
+/*.btn-group-vertical>.btn-group:after,
+.btn-group-vertical>.btn-group:before,*/
 .btn-toolbar:after,
 .btn-toolbar:before,
 .clearfix:after,
 .clearfix:before,
-.container-fluid:after,
-.container-fluid:before,
-.container:after,
-.container:before,
+/*.container-fluid:after,
+.container-fluid:before,*/
+/*.container:after,*/
+.container:before,*/
 .dl-horizontal dd:after,
 .dl-horizontal dd:before,
-.form-horizontal .form-group:after,
-.form-horizontal .form-group:before,
+/*.form-horizontal .form-group:after,
+.form-horizontal .form-group:before,*/
 .modal-footer:after,
 .modal-footer:before,
-.nav:after,
+/*.nav:after,*/
 .nav:before,
-.navbar-collapse:after,
+/*.navbar-collapse:after,
 .navbar-collapse:before,
 .navbar-header:after,
-.navbar-header:before,
+.navbar-header:before, 
 .navbar:after,
-.navbar:before,
+.navbar:before,*/
 .pager:after,
 .pager:before,
 .panel-body:after,
-.panel-body:before,
+.panel-body:before
 .row:after,
 .row:before {
     display: table;
     content: " "
 }
 
-.btn-group-vertical>.btn-group:after,
+/*.btn-group-vertical>.btn-group:after,*/
 .btn-toolbar:after,
 .clearfix:after,
-.container-fluid:after,
-.container:after,
+/*.container-fluid:after,
+.container:after,*/
 .dl-horizontal dd:after,
-.form-horizontal .form-group:after,
+/*.form-horizontal .form-group:after,*/
 .modal-footer:after,
 .nav:after,
 .navbar-collapse:after,
 .navbar-header:after,
 .navbar:after,
-.pager:after,
-.panel-body:after,
-.row:after {
+.pager:after
+/*.panel-body:after,*/
+.row:after{
     clear: both
 }
 

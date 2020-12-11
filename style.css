@@ -46,7 +46,6 @@ button {
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
-.bg-t-edge,
 .bg-b-edge,
 .bg-tl-edge,
 .bg-bl-edge,
@@ -64,7 +63,8 @@ button {
 }
 
 .bg-t-edge {
-    background: top no-repeat;
+    background: center no-repeat;
+    background-size: cover;
 }
 
 .bloc-bg-texture::before {
@@ -150,6 +150,14 @@ button {
 
 .btn {
     margin: 0 5px 5px 0;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -o-transition: all 300ms;
+}
+.btn:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
 
 button {
@@ -168,7 +176,12 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 45px!important;
+    color: #fff!important;
+}
+.icon-md:hover {
+    color: #1689fb!important;
+    transition: all 0.3s;
 }
 
 .icon-lg {
@@ -182,6 +195,7 @@ button {
 .lead {
     text-align: center;
     font-size: 1.8rem;
+    color: rgb(0, 0, 0, .7)!important;
 }
 
 a[data-lightbox] {
@@ -210,17 +224,13 @@ a {
     font-size: 38px;
 }
 
-p {
-    font-size: 13px;
-}
-
 h4,
 h2 {
     color: #000;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto auto auto auto;
 }
 
@@ -309,9 +319,92 @@ h1 {
 .bg-presentation {
     background-image: url("img/image-de-presentation-size-portable-min.jpg");
 }
+
 .reseaux-sociaux ul {
     list-style: none;    
 } 
+
+.bgc-atomic-tangerine {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reseaux-sociaux .col-xs-12 {
+    margin-left: 3rem;
+}
+
+.reseaux-sociaux li{
+    display: inline-block;
+    margin-left: 4rem;
+    
+}
+.reseaux-sociaux .col-md-4 {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.col-sm-6{
+    width:45%;
+    float: left; 
+    margin: auto;   
+}
+
+.bloc-sm .col-sm-6 {
+    width: 50%;
+    margin-top: 2rem;
+
+}
+
+.bloc-sm .col-sm-6 a {
+    font-weight: 600;
+}
+
+.bloc-sm .col-sm-6 a:hover {
+    color: #ece937!important;
+}
+
+.bloc-sm .col-sm-6 p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.d-bloc {
+    color:#575757; 
+}
+
+.location {
+    font-size: 2.2rem;
+}
+
+@media (min-width: 1500px) {
+    .bg-t-edge,
+    .bg-presentation{
+        max-width: 80%;
+        margin: auto;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+    .black-background {
+        border-radius: 30px;
+        padding: 60px 100px;
+    }
+    .bg-banniere {
+        max-width: 80%;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 30px 30px 0 0;
+    }
+    .bgc-atomic-tangerine {
+        max-width: 80%;
+        margin: auto;
+        height: 30rem;
+    }
+    .med-width-whitespace {
+        max-width: 1000px;
+    }
+    .tight-width-whitespace {
+        max-width: 1000px;
+    }
+}
 
 @media (max-width: 1024px) {
     .bloc {
@@ -320,7 +413,7 @@ h1 {
     }
 }
 
-@media (max-width: 991px) {
+@media (min-width: 767) and (max-width: 991px) {
     .container {
         width: 100%;
     }
@@ -336,10 +429,21 @@ h1 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
-    
+    .col-sm-6{
+        width:50%;
+        float: left; 
+        margin: auto;   
+    }
+    .col-sm-4{
+        width: 33.33333333%;
+        float: left;
+    }
+    .row h5 {
+        font-size: 25px;
+    }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 340px) and (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -347,10 +451,20 @@ h1 {
     h1,
     h2,
     h3,
-    p,
+    h4,
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
+    }
+    p {
+       width: 70%;
+       margin: auto;
+       margin-bottom: 1rem;
+       margin-top: 0; 
+    }
+    h4 {
+        width: 80%;
+        margin: auto;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -381,5 +495,22 @@ h1 {
     }
     .voffset-lg {
         margin-top: 30px;
+    }
+    .col-sm-6 {
+        width: 100%;
+        margin: auto;
+    }
+    .voffset-lg .col-xs-12 {
+       margin-top: 3rem;
+       margin-bottom: 3rem;
+       font-size: 1.8rem;
+       text-align: center;
+       width: 93%;  
+    }
+    .icon-md {
+        font-size: 30px!important;
+    }  
+    .row h5 {
+        font-size: 20px;
     }
 }
