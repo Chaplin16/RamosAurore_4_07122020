@@ -230,7 +230,7 @@ a {
 }
 
 h4,
-h2 {
+h2 span {
     color: #000;
 }
 
@@ -264,7 +264,7 @@ h4 {
     color: #000;
 }
 .med-width-whitespace {
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
@@ -451,10 +451,25 @@ a[data-lightbox]:hover img {
 }
 
 .coloration {
-    color: #ffbb9b!important;
+    color: rgb(206, 3, 3)!important;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
     padding: 3rem 0rem;
     background: radial-gradient(rgba(0, 0, 0, 0.9), rgb(0, 0, 0, 0.02));
+}
 
+.bloc-md p {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #575757;
+}
+.bloc-md .goal {
+    color: rgb(0, 0, 0, 0.7)!important;
+    font-size: 1.6rem!important;
+    font-weight: 400;
+}
+
+.bloc-md .citation  p{
+    font-weight: 400;
 }
 
 @media (min-width: 1500px) {
@@ -531,10 +546,7 @@ a[data-lightbox]:hover img {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .col-sm-6{
         width:50%;
         float: left; 
@@ -560,7 +572,9 @@ a[data-lightbox]:hover img {
     h5 {
     font-size: 25px; 
     }
-    
+    .col-sm-4{
+        max-width: 33%;
+    }
 }
 
 @media (min-width: 340px) and (max-width: 767px) {
@@ -676,12 +690,17 @@ a[data-lightbox]:hover img {
         margin-left: 2rem;
     }
     .black-background {
-        height: 42rem;
+        height: 37rem;
         background-color: rgb(0, 0, 0, 0.5);
     }
     .support {
         font-size: 2rem!important;
-        
+        width: 80%;
+        margin: auto;
+        margin-bottom: 3rem;
+        color: #F3976C!important;
+        text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+
     }
   
 
