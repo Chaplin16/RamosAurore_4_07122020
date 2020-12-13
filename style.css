@@ -451,10 +451,10 @@ a[data-lightbox]:hover img {
 }
 
 .coloration {
-    color: rgb(206, 3, 3)!important;
+    color: #f3976c!important;
     text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
     padding: 3rem 0rem;
-    background: radial-gradient(rgba(0, 0, 0, 0.9), rgb(0, 0, 0, 0.02));
+    background: radial-gradient(rgba(0, 0, 0, 1), rgb(0, 0, 0, 0.02));
 }
 
 .bloc-md p {
@@ -532,6 +532,14 @@ a[data-lightbox]:hover img {
         width: 18%;
         margin-left: 5rem;
     }
+    h3,
+    h3 ~ p {
+        max-width: 80%;
+        margin: auto;
+    }
+    .black-background {
+        height: 28rem;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 991px) {
@@ -546,7 +554,10 @@ a[data-lightbox]:hover img {
         overflow-x: hidden;
         position: relative;
     }
-
+    .voffset-lg .col-xs-12 {
+        width: 90%;
+        margin: auto!important;
+    }
     .col-sm-6{
         width:50%;
         float: left; 
@@ -575,6 +586,15 @@ a[data-lightbox]:hover img {
     .col-sm-4{
         max-width: 33%;
     }
+    h3,
+    h3 ~ p {
+        max-width: 80%;
+        margin: auto;
+    }
+    .black-background {
+        height: 28rem;
+    }
+
 }
 
 @media (min-width: 340px) and (max-width: 767px) {
@@ -597,8 +617,9 @@ a[data-lightbox]:hover img {
        margin-top: 0; 
     }
     .voffset-lg p {
-        width: 85%;
+        width: 80%;
         color:rgba(0, 0, 0, .9)!important;
+        margin:auto!important;
     }
     h4 {
         width: 80%;
@@ -643,8 +664,8 @@ a[data-lightbox]:hover img {
        margin-bottom: 3rem;
        font-size: 1.8rem;
        text-align: center;
-       width: 93%;
-       margin-left: 5rem;  
+       width: 100%;
+ 
     }
     .icon-md {
         font-size: 30px!important;
@@ -698,6 +719,7 @@ a[data-lightbox]:hover img {
         width: 80%;
         margin: auto;
         margin-bottom: 3rem;
+        margin-top:3rem;
         color: #F3976C!important;
         text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 
