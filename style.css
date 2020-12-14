@@ -308,7 +308,7 @@ h1 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #ffc7ac;
     color: #575757!important;
     font-weight: 700!important;
 }
@@ -356,17 +356,22 @@ h1 {
 }
 
 .bloc-sm .col-sm-6 a {
-    font-weight: 600;
+    font-weight: 700;
+    transition: all 0.3s;
 }
 
 .bloc-sm .col-sm-6 a:hover {
-    color: #ece937!important;
+    color: #000000!important;
+
 }
 
-.bloc-sm .col-sm-6 p {
+.bloc-sm .col-sm-6 p,
+.bloc-sm h6 {
     font-size: 2rem;
     font-weight: 700;
+    margin-left: 2rem;
 }
+
 .d-bloc {
     color:#575757; 
 }
@@ -451,10 +456,20 @@ a[data-lightbox]:hover img {
 }
 
 .coloration {
-    color: #f3976c!important;
+    color: #ffc7ac!important;
     text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
-    padding: 3rem 0rem;
-    background: radial-gradient(rgba(0, 0, 0, 1), rgb(0, 0, 0, 0.02));
+    padding: 3rem;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    margin-left: 27%;
+}
+
+h5.coloration {
+    margin-left: 0;
+
+ 
+    
 }
 
 .bloc-md p {
@@ -536,6 +551,7 @@ a[data-lightbox]:hover img {
     h3 ~ p {
         max-width: 80%;
         margin: auto;
+        text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
     }
     .black-background {
         height: 28rem;
@@ -580,8 +596,15 @@ a[data-lightbox]:hover img {
     .reseaux-sociaux .col-xs-12 {
         margin-left: 15%!important;
     }
-    h5 {
-    font-size: 25px; 
+    h5.coloration {
+    font-size: 25px;
+    }
+    h1.coloration {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+        display: block;
+        text-align: center;
     }
     .col-sm-4{
         max-width: 33%;
@@ -590,6 +613,7 @@ a[data-lightbox]:hover img {
     h3 ~ p {
         max-width: 80%;
         margin: auto;
+        text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
     }
     .black-background {
         height: 28rem;
@@ -610,6 +634,16 @@ a[data-lightbox]:hover img {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
+    h1.coloration {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+        display: block;
+        text-align: center;
+    }
+    h3 ~ p {
+        text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    }
     p {
        width: 70%;
        margin: auto;
@@ -625,6 +659,11 @@ a[data-lightbox]:hover img {
         width: 80%;
         margin: auto;
     }
+    h5.coloration {
+        display: block;
+        font-size: 20px;
+    }
+
     .b-parallax {
         background-attachment: scroll;
     }
@@ -670,9 +709,6 @@ a[data-lightbox]:hover img {
     .icon-md {
         font-size: 30px!important;
     }  
-    .row h5 {
-        font-size: 20px;
-    }
     .location {
         font-size: 1.5rem;
         width: 100%;
@@ -722,7 +758,9 @@ a[data-lightbox]:hover img {
         margin-top:3rem;
         color: #F3976C!important;
         text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
-
+    }
+    .row:after{
+        clear: none!important;
     }
   
 
