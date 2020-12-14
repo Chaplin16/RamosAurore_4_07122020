@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
 }
 
 
@@ -52,10 +52,10 @@ button {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
+    -webkit-background-size: auto/*!important*/;
+    -moz-background-size: auto/*!important*/;
+    -o-background-size: auto/*!important*/;
+    background-size: auto/*!important*/;
 }
 
 .bg-repeat {
@@ -140,7 +140,7 @@ button {
     font-size: 2rem;
 
     margin-top: 1rem;
-    padding-left: 0!important;
+    padding-left: 0/*!important*/;
     font-family: 'Vidaloka', serif;
 }
 
@@ -162,7 +162,7 @@ button {
 }
 
 button {
-    outline: none!important;
+    outline: none/*!important*/;
 }
 
 .btn-rd {
@@ -186,7 +186,7 @@ button {
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 60px/*!important*/;
 }
 
 .sm-shadow {
@@ -196,7 +196,7 @@ button {
 .lead {
     text-align: center;
     font-size: 2rem;
-    color: rgb(0, 0, 0, .7)!important;
+    color: rgb(0, 0, 0, .7)/*!important*/;
     width: 85%;
     margin: auto;
     text-align: center;
@@ -217,7 +217,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757/*!important*/;
 }
 
 .container {
@@ -241,7 +241,7 @@ h2 span {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF/*!important*/;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 20px;
@@ -258,7 +258,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333/*!important*/;
 }
 h4 {
     color: #000;
@@ -270,7 +270,7 @@ h4 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333/*!important*/;
 }
 
 .icons {
@@ -279,7 +279,7 @@ h1 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF/*!important*/;
 }
 
 .portfolio-thumb {
@@ -304,18 +304,18 @@ h1 {
 }
 
 .tc-white {
-    color: #f6c9b4!important;
+    color: #f6c9b4/*!important*/;
 }
 
 .btn-atomic-tangerine {
     background: #ffc7ac;
-    color: #575757!important;
-    font-weight: 700!important;
+    color: #575757/*!important*/;
+    font-weight: 700/*!important*/;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577/*!important*/;
+    border-color: #364577/*!important*/;
 }
 
 .bg-lines-h2-bg {
@@ -361,7 +361,7 @@ h1 {
 }
 
 .bloc-sm .col-sm-6 a:hover {
-    color: #000000!important;
+    color: #000000/*!important*/;
 
 }
 
@@ -378,7 +378,7 @@ h1 {
 
 .location {
     font-size: 1.8rem;
-    color:#575757!important;
+    color:#575757/*!important*/;
 }
 .capacity {
     font-weight: 700;
@@ -406,7 +406,7 @@ h1 {
     font-size: 16px;
 }
 .navbar .nav a:hover {
-    color: #147feb!important;
+    color: #147feb/*!important*/;
     font-weight: bold;
 }
 
@@ -441,7 +441,7 @@ h1 {
     text-align: center;
     font-weight: bold;
     padding-top: 1rem;
-    color: #000!important;
+    color: #000/*!important*/;
 }
 
 a:hover {
@@ -456,7 +456,7 @@ a[data-lightbox]:hover img {
 }
 
 .coloration {
-    color: #ffc7ac!important;
+    color: #ffc7ac/*!important*/;
     text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
     padding: 3rem;
     border-radius: 50px;
@@ -475,8 +475,8 @@ h5.coloration {
     color: #575757;
 }
 .bloc-md .goal {
-    color: rgb(0, 0, 0, 0.7)!important;
-    font-size: 1.6rem!important;
+    color: rgb(0, 0, 0, 0.7)/*!important*/;
+    font-size: 1.6rem/*!important*/;
     font-weight: 400;
 }
 
@@ -485,12 +485,12 @@ h5.coloration {
 }
 
 .headband {
-    color:rgba(0, 0, 0, 0.7)!important;
+    color:rgba(0, 0, 0, 0.7)/*!important*/;
     font-size: 4rem;
 }
 
 .headband ~ p {
-    color: rgba(0, 0, 0, .6)!important;
+    color: rgba(0, 0, 0, .6)/*!important*/;
     font-size: 2rem;
 }
 
@@ -525,7 +525,7 @@ h5.coloration {
         max-width: 1000px;
     }
     .end {
-        max-height: 10rem;
+        max-height: 15rem;
         border-radius: 30px 30px 0 0;
     }
     .unit {
@@ -553,7 +553,7 @@ h5.coloration {
         font-size: 25px;
     }
     .col-md-offset-2 {
-        margin-left: 0%!important;
+        margin-left: 0%/*!important*/;
     }
     .reseaux-sociaux .col-md-3 {
         width: 18%;
@@ -599,7 +599,7 @@ h5.coloration {
     }
     .voffset-lg .col-xs-12 {
         width: 90%;
-        margin: auto!important;
+        margin: auto/*!important*/;
     }
     .col-sm-6{
         width:50%;
@@ -621,7 +621,7 @@ h5.coloration {
         display: inline-block;
     }
     .reseaux-sociaux .col-xs-12 {
-        margin-left: 15%!important;
+        margin-left: 15%/*!important*/;
     }
     h5.coloration {
     font-size: 25px;
@@ -672,8 +672,8 @@ h5.coloration {
     h3,
     h4,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px/*!important*/;
+        padding-right: 10px/*!important*/;
     }
     h1.coloration {
         margin-left: 0;
@@ -693,8 +693,8 @@ h5.coloration {
     }
     .voffset-lg p {
         width: 80%;
-        color:rgba(0, 0, 0, .9)!important;
-        margin:auto!important;
+        color:rgba(0, 0, 0, .9)/*!important*/;
+        margin:auto/*!important*/;
     }
     h4 {
         width: 80%;
@@ -748,7 +748,7 @@ h5.coloration {
  
     }
     .icon-md {
-        font-size: 30px!important;
+        font-size: 30px/*!important*/;
     }  
     .location {
         font-size: 1.5rem;
@@ -757,7 +757,7 @@ h5.coloration {
     .navbar .nav {
      padding-top: 0;
      border-top: 1px solid rgba(0, 0, 0, .2);
-     float: none!important;
+     float: none/*!important*/;
     }
     .site-navigation {
         position: inherit;
@@ -792,16 +792,16 @@ h5.coloration {
         background-color: rgb(0, 0, 0, 0.5);
     }
     .support {
-        font-size: 2rem!important;
+        font-size: 2rem/*!important*/;
         width: 80%;
         margin: auto;
         margin-bottom: 3rem;
         margin-top:3rem;
-        color: #F3976C!important;
+        color: #F3976C/*!important*/;
         text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
     }
     .row:after{
-        clear: none!important;
+        clear: none/*!important*/;
     }
     .broad {
         width: 90%;
