@@ -414,7 +414,7 @@ h1 {
     max-height: 200vh;
     margin: 0 auto;
 }
-
+/*
 .close-lightbox {
     color: #FFF;
     font-size: 30px;
@@ -428,7 +428,7 @@ h1 {
     padding: 0 9px 5px;
     opacity: 0.3;
 }
-
+*/
 .modal-content .modal-body .fa-chevron-right:before,
 .modal-content .modal-body .fa-chevron-left:before {
      content: "\f054";
