@@ -1,0 +1,5 @@
+#fichier robot.txt pour le site https://chaplin16.github.io/RamosAurore_4_07122020/
+
+User-agent: *
+Disallow: /fonts/
+Disallow: /includes/
