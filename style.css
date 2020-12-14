@@ -323,7 +323,7 @@ h1 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere-min.jpg");
+    background-image: url("img/la-chouette-agence-banniere-max-width-1500px.jpg");
 }
 
 .bg-presentation {
@@ -536,12 +536,18 @@ h5.coloration {
         margin-right: 10%;
         font-size: 1.4rem;
     }
+    .bg-banniere {
+        background-image: url("img/la-chouette-agence-banniere-min-width-1500px.jpg");
+    }
 }
 
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .bg-banniere {
+        background-image: url("img/la-chouette-agence-banniere-max-width-1024px.jpg");
     }
 }
 
